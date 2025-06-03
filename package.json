@@ -1,0 +1,28 @@
+{
+    "name": "matterport-embed",
+    "description": "Adds support for Matterport embed. Paste the link of your 3D model in the block editor, and you’re done.",
+    "main": "src/index.js",
+    "scripts": {
+        "build": "wp-scripts build",
+        "start": "wp-scripts start",
+        "format": "wp-scripts format",
+        "lint:js": "wp-scripts lint-js",
+        "plugin-zip": "wp-scripts plugin-zip",
+        "packages-update": "wp-scripts packages-update"
+    },
+    "contributors": [
+        {
+            "name": "Alexandre Buffet",
+            "email": "dev@alexandrebuffet.fr",
+            "url": "https://alexandrebuffet.fr"
+        },
+        {
+            "name": "BSA Web",
+            "url": "https://bsa-web.fr"
+        }
+    ],
+    "license": "GPL-2.0-or-later",
+    "devDependencies": {
+        "@wordpress/scripts": "^30.17.0"
+    }
+}

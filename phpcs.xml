@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<ruleset name="WordPress Plugin Coding Standards">
+    <description>A basic set of code standard rules for WordPress plugins.</description>
+
+    <!-- What to scan -->
+    <file>.</file>
+    <exclude-pattern>/vendor/*</exclude-pattern>
+    <exclude-pattern>/node_modules/*</exclude-pattern>
+
+    <!-- How to scan -->
+    <arg name="extensions" value="php"/>
+    <arg name="colors"/>
+
+    <!-- Rules: WordPress Core -->
+    <rule ref="WordPress"/>
+</ruleset> 
