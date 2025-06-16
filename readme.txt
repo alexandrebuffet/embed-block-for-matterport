@@ -1,12 +1,12 @@
-=== Matterport Embed ===
-Plugin URI:        https://github.com/bsaweb/matterport-embed
+=== Embed Matterport ===
+Plugin URI:        https://github.com/bsaweb/embed-matterport
 Description:       Adds support for Matterport embed. Paste the link of your 3D model in the block editor, and you're done.
 Tags:              matterport, oembed, embed, 3d, virtual model
 Contributors:      alexandrebuffet, bsaweb
 Requires at least: 2.9
 Requires PHP:      7.1
 Tested up to:      6.8
-Stable tag:        0.1.0
+Stable tag:        0.2.0
 License:           GPLv2
 License URI:       http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -27,16 +27,20 @@ No coding, no shortcodes. Just paste and publish.
 = Installation from within WordPress =
 
 1. Visit **Plugins > Add New**.
-2. Search for **Matterport Embed**.
-3. Install and activate the Matterport Embed plugin.
+2. Search for **Embed Matterport**.
+3. Install and activate the Embed Matterport plugin.
 
 = Manual installation =
 
-1. Upload the entire `matterport-embed` folder to the `/wp-content/plugins/` directory.
+1. Upload the entire `embed-matterport` folder to the `/wp-content/plugins/` directory.
 2. Visit **Plugins**.
-3. Activate the Matterport Embed plugin.
+3. Activate the Embed Matterport plugin.
 
 == Frequently Asked Questions ==
+
+= Is this plugin affiliated with Matterport? =
+
+No. This plugin is an independent project and is not affiliated with or endorsed by Matterport.
 
 = Do I need a Matterport account to use this plugin? =
 No, you just need a public Matterport model link. The plugin enables you to embed models, but does not create them.
@@ -50,4 +54,4 @@ If your page builder supports oEmbed, it should work because Matterport is added
 == Changelog ==
 
 = 0.1.0 =  
-* Initial release: Adds oEmbed provider for Matterport and a custom embed block variation.
+-   Initial release: Adds Matterport as oEmbed provider and a custom Matterport variation of the Embed block.

@@ -1,8 +1,8 @@
-# Matterport Embed
+# Embed Matterport
 
-[![WordPress Plugin](https://img.shields.io/wordpress/plugin/v/matterport-embed.svg)](https://wordpress.org/plugins/matterport-embed/)
-[![WordPress Plugin](https://img.shields.io/wordpress/plugin/dt/matterport-embed.svg)](https://wordpress.org/plugins/matterport-embed/)
-[![WordPress Plugin](https://img.shields.io/wordpress/plugin/r/matterport-embed.svg)](https://wordpress.org/plugins/matterport-embed/)
+[![WordPress Plugin](https://img.shields.io/wordpress/plugin/v/embed-matterport.svg)](https://wordpress.org/plugins/embed-matterport/)
+[![WordPress Plugin](https://img.shields.io/wordpress/plugin/dt/embed-matterport.svg)](https://wordpress.org/plugins/embed-matterport/)
+[![WordPress Plugin](https://img.shields.io/wordpress/plugin/r/embed-matterport.svg)](https://wordpress.org/plugins/embed-matterport/)
 [![License](https://img.shields.io/badge/license-GPLv2-blue.svg)](http://www.gnu.org/licenses/gpl-2.0.html)
 
 Adds support for Matterport embed. Paste the link of your 3D model in the block editor, and you're done.
@@ -22,14 +22,14 @@ No coding, no shortcodes. Just paste and publish.
 ### Installation from within WordPress
 
 1. Visit **Plugins > Add New**
-2. Search for **Matterport Embed**
-3. Install and activate the Matterport Embed plugin
+2. Search for **Embed Matterport**
+3. Install and activate the Embed Matterport plugin
 
 ### Manual installation
 
-1. Upload the entire `matterport-embed` folder to the `/wp-content/plugins/` directory
+1. Upload the entire `embed-matterport` folder to the `/wp-content/plugins/` directory
 2. Visit **Plugins**
-3. Activate the Matterport Embed plugin
+3. Activate the Embed Matterport plugin
 
 ## Requirements
 
@@ -38,6 +38,10 @@ No coding, no shortcodes. Just paste and publish.
 -   Tested up to WordPress 6.8
 
 ## Frequently Asked Questions
+
+### Is this plugin affiliated with Matterport?
+
+No. This plugin is an independent project and is not affiliated with or endorsed by Matterport.
 
 ### Do I need a Matterport account to use this plugin?
 
@@ -55,4 +59,4 @@ If your page builder supports oEmbed, it should work because Matterport is added
 
 ### 0.1.0
 
--   Initial release: Adds oEmbed provider for Matterport and a custom embed block variation.
+-   Initial release: Adds Matterport as oEmbed provider and a custom Matterport variation of the Embed block.

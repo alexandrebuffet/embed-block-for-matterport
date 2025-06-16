@@ -1,43 +1,43 @@
 {
-    "name": "bsaweb/matterport-embed",
-    "description": "Adds support for Matterport embed. Paste the link of your 3D model in the block editor, and you’re done.",
-    "type": "wordpress-plugin",
-    "keywords": [
-        "matterport",
-        "oembed",
-        "embed"
-    ],
-    "authors": [
-        {
-            "name": "Alexandre Buffet",
-            "email": "dev@alexandrebuffet.fr",
-            "homepage": "https://alexandrebuffet.fr"
-        },
-        {
-            "name": "BSA Web",
-            "homepage": "https://bsa-web.fr"
-        }
-    ],
-    "support": {
-        "issues": "https://github.com/bsaweb/matterport-embed/issues",
-        "source": "https://github.com/bsaweb/matterport-embed"
-    },
-    "prefer-stable": true,
-    "require": {
-        "php": ">=7.1"
-    },
-    "require-dev": {
-        "dealerdirect/phpcodesniffer-composer-installer": "^1.0",
-        "squizlabs/php_codesniffer": "^3.13",
-        "wp-coding-standards/wpcs": "^3.1"
-    },
-    "config": {
-        "allow-plugins": {
-            "dealerdirect/phpcodesniffer-composer-installer": true
-        }
-    },
-    "scripts": {
-        "phpcs": "phpcs --standard=./phpcs.xml",
-        "phpcbf": "phpcbf --standard=./phpcs.xml"
-    }
+	"name": "bsaweb/embed-matterport",
+	"description": "Adds support for Matterport embed. Paste the link of your 3D model in the block editor, and you’re done.",
+	"type": "wordpress-plugin",
+	"keywords": [
+		"matterport",
+		"oembed",
+		"embed"
+	],
+	"authors": [
+		{
+			"name": "Alexandre Buffet",
+			"email": "dev@alexandrebuffet.fr",
+			"homepage": "https://alexandrebuffet.fr"
+		},
+		{
+			"name": "BSA Web",
+			"homepage": "https://bsa-web.fr"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/bsaweb/embed-matterport/issues",
+		"source": "https://github.com/bsaweb/embed-matterport"
+	},
+	"prefer-stable": true,
+	"require": {
+		"php": ">=7.1"
+	},
+	"require-dev": {
+		"dealerdirect/phpcodesniffer-composer-installer": "^1.0",
+		"squizlabs/php_codesniffer": "^3.13",
+		"wp-coding-standards/wpcs": "^3.1"
+	},
+	"config": {
+		"allow-plugins": {
+			"dealerdirect/phpcodesniffer-composer-installer": true
+		}
+	},
+	"scripts": {
+		"phpcs": "phpcs --standard=./phpcs.xml",
+		"phpcbf": "phpcbf --standard=./phpcs.xml"
+	}
 }
