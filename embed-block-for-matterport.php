@@ -1,20 +1,26 @@
 <?php
 /**
- * Plugin Name:       Embed Matterport
- * Version:           0.2.0
- * Plugin URI:        https://github.com/bsaweb/embed-matterport
- * Description:       Adds support for Matterport embed. Paste the link of your 3D model in the block editor, and you’re done.
+ * Embed Block for Matterport.
+ *
+ * @package           EmbedBlockForMatterport
+ * @author            Alexandre Buffet
+ * @copyright         2025 Alexandre Buffet
+ * @license           GPL-2.0-or-later
+ *
+ * @wordpress-plugin
+ * Plugin Name:       Embed Block for Matterport
+ * Version:           0.2.1
+ * Plugin URI:        https://github.com/alexandrebuffet/embed-block-for-matterport
+ * Description:       Adds Matterport oEmbed support and provides a new Embed block variation.
  * Author:            Alexandre Buffet
  * Author URI:        https://alexandrebuffet.fr
  * License:           GPL v2 or later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
  * Requires at least: 2.9
  * Requires PHP:      7.1
- *
- * @package MatterportEmbed
  */
 
-namespace MatterportEmbed;
+namespace EmbedBlockForMatterport;
 
 /**
  * Exit if called directly.
@@ -51,14 +57,14 @@ function enqueue_block_editor_assets() {
 	$block_editor_script_url = plugin_dir_url( __FILE__ ) . 'build/block-editor.js';
 
 	wp_enqueue_script(
-		'embed-matterport-block-editor-script',
+		'embed-block-for-matterport-block-editor-script',
 		$block_editor_script_url,
 		$block_editor_asset['dependencies'],
 		$block_editor_asset['version'],
 		true
 	);
 
-	wp_set_script_translations( 'embed-matterport-block-editor-script', 'embed-matterport' );
+	wp_set_script_translations( 'embed-block-for-matterport-block-editor-script', 'embed-block-for-matterport' );
 }
 
 add_action( 'enqueue_block_editor_assets', __NAMESPACE__ . '\enqueue_block_editor_assets' );

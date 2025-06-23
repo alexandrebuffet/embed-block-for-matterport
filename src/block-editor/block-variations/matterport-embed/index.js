@@ -12,8 +12,11 @@ import { embedMatterportIcon } from '../../../icons';
 registerBlockVariation( 'core/embed', {
 	name: 'matterport',
 	icon: embedMatterportIcon,
-	title: __( 'Embed Matterport', 'embed-matterport' ),
-	description: __( 'Embed a Matterport model.', 'embed-matterport' ),
+	title: __( 'Matterport Embed', 'embed-block-for-matterport' ),
+	description: __(
+		'Embed a Matterport model.',
+		'embed-block-for-matterport'
+	),
 	attributes: {
 		providerNameSlug: 'matterport',
 		responsive: true,

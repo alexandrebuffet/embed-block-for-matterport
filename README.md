@@ -1,11 +1,11 @@
-# Embed Matterport
+# Embed Block for Matterport
 
-[![WordPress Plugin](https://img.shields.io/wordpress/plugin/v/embed-matterport.svg)](https://wordpress.org/plugins/embed-matterport/)
-[![WordPress Plugin](https://img.shields.io/wordpress/plugin/dt/embed-matterport.svg)](https://wordpress.org/plugins/embed-matterport/)
-[![WordPress Plugin](https://img.shields.io/wordpress/plugin/r/embed-matterport.svg)](https://wordpress.org/plugins/embed-matterport/)
+[![WordPress Plugin](https://img.shields.io/wordpress/plugin/v/embed-block-for-matterport.svg)](https://wordpress.org/plugins/embed-block-for-matterport/)
+[![WordPress Plugin](https://img.shields.io/wordpress/plugin/dt/embed-block-for-matterport.svg)](https://wordpress.org/plugins/embed-block-for-matterport/)
+[![WordPress Plugin](https://img.shields.io/wordpress/plugin/r/embed-block-for-matterport.svg)](https://wordpress.org/plugins/embed-block-for-matterport/)
 [![License](https://img.shields.io/badge/license-GPLv2-blue.svg)](http://www.gnu.org/licenses/gpl-2.0.html)
 
-Adds support for Matterport embed. Paste the link of your 3D model in the block editor, and you're done.
+Adds Matterport oEmbed support and provides a new Embed block variation.
 
 ## Description
 
@@ -22,14 +22,14 @@ No coding, no shortcodes. Just paste and publish.
 ### Installation from within WordPress
 
 1. Visit **Plugins > Add New**
-2. Search for **Embed Matterport**
-3. Install and activate the Embed Matterport plugin
+2. Search for **Embed Block for Matterport**
+3. Install and activate the Embed Block for Matterport plugin
 
 ### Manual installation
 
-1. Upload the entire `embed-matterport` folder to the `/wp-content/plugins/` directory
+1. Upload the entire `embed-block-for-matterport` folder to the `/wp-content/plugins/` directory
 2. Visit **Plugins**
-3. Activate the Embed Matterport plugin
+3. Activate the Embed Block for Matterport plugin
 
 ## Requirements
 
@@ -57,6 +57,17 @@ If your page builder supports oEmbed, it should work because Matterport is added
 
 ## Changelog
 
+### 0.2.1
+
+-   Rename plugin name, slug and namespace
+-   Update plugin description.
+-   Rename block variation title.
+-   Add missing icon and screenshot.
+
+### 0.2.0
+
+-   Rename plugin name, slug and namespace.
+
 ### 0.1.0
 
--   Initial release: Adds Matterport as oEmbed provider and a custom Matterport variation of the Embed block.
+-   Initial release.

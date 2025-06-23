@@ -1,1 +1,1 @@
-import './embed-matterport';
+import './matterport-embed';

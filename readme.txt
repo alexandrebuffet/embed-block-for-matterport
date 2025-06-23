@@ -1,16 +1,16 @@
-=== Embed Matterport ===
-Plugin URI:        https://github.com/bsaweb/embed-matterport
-Description:       Adds support for Matterport embed. Paste the link of your 3D model in the block editor, and you're done.
+=== Embed Block for Matterport ===
+Plugin URI:        https://github.com/alexandrebuffet/embed-block-for-matterport
+Description:       Adds Matterport oEmbed support and Matterport Embed block variation.
 Tags:              matterport, oembed, embed, 3d, virtual model
 Contributors:      alexandrebuffet, bsaweb
 Requires at least: 2.9
 Requires PHP:      7.1
 Tested up to:      6.8
-Stable tag:        0.2.0
+Stable tag:        0.2.1
 License:           GPLv2
 License URI:       http://www.gnu.org/licenses/gpl-2.0.html
 
-Adds support for Matterport embed. Paste the link of your 3D model in the block editor, and you're done.
+Adds Matterport oEmbed support and provides a new Embed block variation.
 
 == Description ==
 
@@ -27,14 +27,14 @@ No coding, no shortcodes. Just paste and publish.
 = Installation from within WordPress =
 
 1. Visit **Plugins > Add New**.
-2. Search for **Embed Matterport**.
-3. Install and activate the Embed Matterport plugin.
+2. Search for **Embed Block for Matterport**.
+3. Install and activate the Embed Block for Matterport plugin.
 
 = Manual installation =
 
-1. Upload the entire `embed-matterport` folder to the `/wp-content/plugins/` directory.
+1. Upload the entire `embed-block-for-matterport` folder to the `/wp-content/plugins/` directory.
 2. Visit **Plugins**.
-3. Activate the Embed Matterport plugin.
+3. Activate the Embed Block for Matterport plugin.
 
 == Frequently Asked Questions ==
 
@@ -53,5 +53,17 @@ If your page builder supports oEmbed, it should work because Matterport is added
 
 == Changelog ==
 
-= 0.1.0 =  
--   Initial release: Adds Matterport as oEmbed provider and a custom Matterport variation of the Embed block.
+= 0.2.1 =
+
+-   Rename plugin name, slug and namespace
+-   Update plugin description.
+-   Rename block variation title.
+-   Add missing icon and screenshot.
+
+= 0.2.0 =
+
+-   Rename plugin name, slug and namespace.
+
+= 0.1.0 =
+
+-   Initial release.
