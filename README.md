@@ -59,16 +59,16 @@ If your page builder supports oEmbed, it should work because Matterport is added
 
 ### 0.3.0
 
--   Add GitHub workflows to deploy and release the plugin on WordPress.org SVN repository
+-   Add GitHub workflows to deploy and release the plugin on WordPress.org SVN repository.
 
 ### 0.2.2
 
--   Update `readme.txt` with "Screenshots" section
--   Move all assets into `.wordpress-org` folder
+-   Update `readme.txt` with "Screenshots" section.
+-   Move all assets into `.wordpress-org` folder.
 
 ### 0.2.1
 
--   Rename plugin name, slug and namespace
+-   Rename plugin name, slug and namespace.
 -   Update plugin description.
 -   Rename block variation title.
 -   Add missing icon and screenshot.
