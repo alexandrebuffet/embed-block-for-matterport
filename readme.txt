@@ -6,7 +6,7 @@ Contributors:      alexandrebuffet, bsaweb
 Requires at least: 2.9
 Requires PHP:      7.1
 Tested up to:      6.8
-Stable tag:        0.2.1
+Stable tag:        0.2.2
 License:           GPLv2
 License URI:       http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -51,19 +51,12 @@ Yes, but the best experience is with the Block Editor (Gutenberg), which gives y
 = Can I use it with page builders? =
 If your page builder supports oEmbed, it should work because Matterport is added to the list of providers. Just paste the Matterport model URL into your page builder's content area or any widget that supports embedding external content.
 
+== Screenshots ==
+
+1. Matterport model embed in block editor.
+
 == Changelog ==
 
-= 0.2.1 =
+= 1.0.0 =
 
--   Rename plugin name, slug and namespace
--   Update plugin description.
--   Rename block variation title.
--   Add missing icon and screenshot.
-
-= 0.2.0 =
-
--   Rename plugin name, slug and namespace.
-
-= 0.1.0 =
-
--   Initial release.
+-   Public release.
