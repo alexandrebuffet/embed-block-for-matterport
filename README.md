@@ -57,6 +57,10 @@ If your page builder supports oEmbed, it should work because Matterport is added
 
 ## Changelog
 
+### 0.3.0
+
+-   Add GitHub workflows to deploy and release the plugin on WordPress.org SVN repository
+
 ### 0.2.2
 
 -   Update `readme.txt` with "Screenshots" section
