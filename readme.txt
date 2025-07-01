@@ -7,6 +7,7 @@ Requires at least: 2.9
 Requires PHP:      7.1
 Tested up to:      6.8
 Stable tag:        1.0.0
+Text Domain:       embed-block-for-matterport
 License:           GPLv2
 License URI:       http://www.gnu.org/licenses/gpl-2.0.html
 
