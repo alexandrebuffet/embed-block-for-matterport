@@ -15,7 +15,19 @@ Once activated, simply paste any Matterport model URL into the WordPress Block E
 
 This works seamlessly in the Block Editor, and pasting a link also works in the Classic Editor, though we recommend using the Block Editor to get the best results and editing experience.
 
-No coding, no shortcodes. Just paste and publish.
+No coding. Just paste and publish.
+
+**Supported Matterport URL formats:**
+
+-   `https://my.matterport.com/show/?m=xxxxxxxxxxx` (11 characters - model ID)
+-   `https://my.matterport.com/show/?m=xxxxxxxxxxxxxxxxxxxxxxxx` (25 characters - view ID)
+
+**Note:** Matterport supports two types of IDs:
+
+-   **11 characters:** Model IDs (for complete 3D models)
+-   **25 characters:** View IDs (for specific views of a model)
+
+For more information about Matterport models and embedding options, visit the [official Matterport documentation](https://support.matterport.com/s/article/Embed-a-Matterport-3D-Model?language=en_US).
 
 ## Installation
 
@@ -47,6 +59,10 @@ No. This plugin is an independent project and is not affiliated with or endorsed
 
 No, you just need a public Matterport model link. The plugin enables you to embed models, but does not create them.
 
+### Does it work with shortcode?
+
+Yes! Since this plugin registers Matterport as an oEmbed provider, you can use the native WordPress `[embed]` shortcode with any Matterport model URL. Simply wrap your Matterport URL with the shortcode like this: `[embed]https://my.matterport.com/show/?m=your-model-id[/embed]`.
+
 ### Does it work with the Classic Editor?
 
 Yes, but the best experience is with the Block Editor (Gutenberg), which gives you a better preview and easier customization.
@@ -56,6 +72,10 @@ Yes, but the best experience is with the Block Editor (Gutenberg), which gives y
 If your page builder supports oEmbed, it should work because Matterport is added to the list of providers. Just paste the Matterport model URL into your page builder's content area or any widget that supports embedding external content.
 
 ## Changelog
+
+### 1.0.0
+
+-   Public release.
 
 ### 0.3.0
 
