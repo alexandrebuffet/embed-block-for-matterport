@@ -73,6 +73,12 @@ If your page builder supports oEmbed, it should work because Matterport is added
 
 ## Changelog
 
+### 1.0.1
+
+-   Update FAQ and description in documentation.
+-   Add missing text domain headers.
+-   Add preview blueprint.
+
 ### 1.0.0
 
 -   Public release.
