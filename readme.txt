@@ -3,7 +3,7 @@ Plugin URI:        https://github.com/alexandrebuffet/embed-block-for-matterport
 Description:       Adds Matterport oEmbed support and Matterport Embed block variation.
 Tags:              matterport, oembed, embed, 3d, virtual model
 Contributors:      alexandrebuffet, bsaweb
-Requires at least: 2.9
+Requires at least: 5.0
 Requires PHP:      7.1
 Tested up to:      6.8
 Stable tag:        1.0.0
