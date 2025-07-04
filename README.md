@@ -73,6 +73,10 @@ If your page builder supports oEmbed, it should work because Matterport is added
 
 ## Changelog
 
+### 1.0.2
+
+-   Update minimum required version to 5.0. This plugin could work with WordPress 2.9+ but is built for the Block Editor. The plugin also requires at least WordPress 4.6 for modern localization support.
+
 ### 1.0.1
 
 -   Update FAQ and description in documentation.
