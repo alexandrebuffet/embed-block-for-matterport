@@ -9,7 +9,7 @@
  *
  * @wordpress-plugin
  * Plugin Name:       Embed Block for Matterport
- * Version:           1.0.2
+ * Version:           1.1.0
  * Plugin URI:        https://github.com/alexandrebuffet/embed-block-for-matterport
  * Description:       Adds Matterport oEmbed support and provides a new Embed block variation.
  * Author:            Alexandre Buffet

@@ -47,7 +47,7 @@ For more information about Matterport models and embedding options, visit the [o
 
 -   WordPress 2.9 or higher
 -   PHP 7.1 or higher
--   Tested up to WordPress 6.8
+-   Tested up to WordPress 6.9
 
 ## Frequently Asked Questions
 
@@ -72,6 +72,11 @@ Yes, but the best experience is with the Block Editor (Gutenberg), which gives y
 If your page builder supports oEmbed, it should work because Matterport is added to the list of providers. Just paste the Matterport model URL into your page builder's content area or any widget that supports embedding external content.
 
 ## Changelog
+
+### 1.1.0
+
+-   Update Matterport logo.
+-   Update tested up WordPress version to 6.9.
 
 ### 1.0.2
 
