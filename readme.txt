@@ -5,7 +5,7 @@ Tags:              matterport, oembed, embed, 3d, virtual model
 Contributors:      alexandrebuffet, bsaweb, sebastienserre
 Requires at least: 5.0
 Requires PHP:      7.1
-Tested up to:      6.8
+Tested up to:      6.9
 Stable tag:        1.0.2
 Text Domain:       embed-block-for-matterport
 License:           GPLv2
@@ -70,6 +70,11 @@ If your page builder supports oEmbed, it should work because Matterport is added
 1. Matterport model embed in block editor.
 
 == Changelog ==
+
+= 1.1.0 =
+
+-   Update Matterport logo.
+-   Update tested up WordPress version to 6.9.
 
 = 1.0.2 =
 

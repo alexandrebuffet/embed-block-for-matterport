@@ -1,42 +1,42 @@
 {
-    "name": "alexandrebuffet/embed-block-for-matterport",
-    "type": "wordpress-plugin",
-    "keywords": [
-        "embed",
-        "matterport",
-        "oembed"
-    ],
-    "authors": [
-        {
-            "name": "Alexandre Buffet",
-            "email": "dev@alexandrebuffet.fr",
-            "homepage": "https://alexandrebuffet.fr"
-        },
-        {
-            "name": "BSA Web",
-            "homepage": "https://bsa-web.fr"
-        }
-    ],
-    "support": {
-        "issues": "https://github.com/alexandrebuffet/embed-block-for-matterport/issues",
-        "source": "https://github.com/alexandrebuffet/embed-block-for-matterport"
-    },
-    "prefer-stable": true,
-    "require": {
-        "php": ">=7.1"
-    },
-    "require-dev": {
-        "dealerdirect/phpcodesniffer-composer-installer": "^1.0",
-        "squizlabs/php_codesniffer": "^3.13",
-        "wp-coding-standards/wpcs": "^3.1"
-    },
-    "config": {
-        "allow-plugins": {
-            "dealerdirect/phpcodesniffer-composer-installer": true
-        }
-    },
-    "scripts": {
-        "phpcs": "phpcs --standard=./phpcs.xml",
-        "phpcbf": "phpcbf --standard=./phpcs.xml"
-    }
+	"name": "alexandrebuffet/embed-block-for-matterport",
+	"type": "wordpress-plugin",
+	"keywords": [
+		"embed",
+		"matterport",
+		"oembed"
+	],
+	"authors": [
+		{
+			"name": "Alexandre Buffet",
+			"email": "dev@alexandrebuffet.fr",
+			"homepage": "https://alexandrebuffet.fr"
+		},
+		{
+			"name": "BSA Web",
+			"homepage": "https://bsa-web.fr"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/alexandrebuffet/embed-block-for-matterport/issues",
+		"source": "https://github.com/alexandrebuffet/embed-block-for-matterport"
+	},
+	"prefer-stable": true,
+	"require": {
+		"php": ">=7.1"
+	},
+	"require-dev": {
+		"dealerdirect/phpcodesniffer-composer-installer": "^1.0",
+		"squizlabs/php_codesniffer": "^3.13",
+		"wp-coding-standards/wpcs": "^3.1"
+	},
+	"config": {
+		"allow-plugins": {
+			"dealerdirect/phpcodesniffer-composer-installer": true
+		}
+	},
+	"scripts": {
+		"phpcs": "phpcs --standard=./phpcs.xml",
+		"phpcbf": "phpcbf --standard=./phpcs.xml"
+	}
 }
