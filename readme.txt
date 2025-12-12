@@ -71,6 +71,10 @@ If your page builder supports oEmbed, it should work because Matterport is added
 
 == Changelog ==
 
+= 1.1.1 =
+
+-   Fix missing built assets.
+
 = 1.1.0 =
 
 -   Update Matterport logo.

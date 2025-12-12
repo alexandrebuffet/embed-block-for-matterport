@@ -1,0 +1,20 @@
+# Development files
+/node_modules
+/src
+/vendor
+/.git
+/.github
+/.wordpress-org
+
+# Build and config files
+package.json
+package-lock.json
+composer.json
+composer.lock
+webpack.config.js
+phpcs.xml
+.distignore
+.gitignore
+
+# Documentation
+README.md
