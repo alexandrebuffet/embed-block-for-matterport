@@ -1,23 +1,23 @@
 {
-	"$schema": "https://playground.wordpress.net/blueprint-schema.json",
-	"landingPage": "/wp-admin/post.php?post=4&action=edit",
-	"login": true,
-	"plugins": [ "embed-block-for-matterport" ],
-	"preferredVersions": {
-		"php": "8.3",
-		"wp": "latest"
-	},
-	"siteOptions": {
-		"blogname": "My Site with Matterport Embed Block"
-	},
-	"steps": [
-		{
-			"step": "runPHP",
-			"code": "<?php require_once 'wordpress/wp-load.php'; wp_insert_post(array('post_title' => 'Matterport Embed Block Sample Post', 'post_status' => 'publish', 'post_content' => '<!-- wp:paragraph --><p>Feel free to test with the URL of the Matterport model you want to embed on your site in the example below:</p><!-- /wp:paragraph --><!-- wp:embed {\"url\":\"https://my.matterport.com/show/?m=xxxxxxxxxxx\"} --><figure class=\"wp-block-embed\"><div class=\"wp-block-embed__wrapper\">\nhttps://my.matterport.com/show/?m=xxxxxxxxxxx\n</div></figure><!-- /wp:embed -->')); ?>"
-		},
-		{
-			"step": "runPHP",
-			"code": "<?php require_once 'wordpress/wp-load.php'; wp_insert_post(array('post_title' => 'Matterport Embed Shortcode Sample Post', 'post_status' => 'publish', 'post_content' => '<!-- wp:paragraph --><p>Embed Block for Matterport is also compatible with WordPress\\' native shortcode for embedding content. You can therefore use this shortcode with your model URL to embed. Of course, it works just as well with the Shortcode block in the block editor or in the Classic Editor.</p><!-- /wp:paragraph --><!-- wp:paragraph --><p>Feel free to test with the URL of the Matterport model you want to embed on your site in the example below:</p><!-- /wp:paragraph --><!-- wp:shortcode -->[embed]https://my.matterport.com/show/?m=xxxxxxxxxxx[/embed]<!-- /wp:shortcode -->')); ?>"
-		}
-	]
+    "$schema": "https://playground.wordpress.net/blueprint-schema.json",
+    "landingPage": "/wp-admin/post.php?post=4&action=edit",
+    "login": true,
+    "plugins": ["embed-block-for-matterport"],
+    "preferredVersions": {
+        "php": "8.3",
+        "wp": "latest"
+    },
+    "siteOptions": {
+        "blogname": "My Site with Matterport Embed block"
+    },
+    "steps": [
+        {
+            "step": "runPHP",
+            "code": "<?php require_once 'wordpress/wp-load.php'; wp_insert_post(array('post_title' => 'Matterport Embed Block Sample Post', 'post_status' => 'publish', 'post_content' => '<!-- wp:paragraph --><p>Feel free to test with the URL of the Matterport model you want to embed on your site in the example below:</p><!-- /wp:paragraph --><!-- wp:embed {\"url\":\"https://my.matterport.com/show/?m=xxxxxxxxxxx\",\"providerNameSlug\":\"matterport\",\"responsive\":true,\"previewable\":false} -->\n<figure class=\"wp-block-embed is-provider-matterport wp-block-embed-matterport\"><div class=\"wp-block-embed__wrapper\">\nhttps://my.matterport.com/show/?m=xxxxxxxxxxx\n</div></figure>\n<!-- /wp:embed -->')); ?>"
+        },
+        {
+            "step": "runPHP",
+            "code": "<?php require_once 'wordpress/wp-load.php'; wp_insert_post(array('post_title' => 'Matterport Embed Shortcode Sample Post', 'post_status' => 'publish', 'post_content' => '<!-- wp:paragraph --><p>Embed Block for Matterport is also compatible with WordPress\\' native shortcode for embedding content. You can therefore use this shortcode with your model URL to embed. Of course, it works just as well with the Shortcode block in the block editor or in the Classic Editor.</p><!-- /wp:paragraph --><!-- wp:paragraph --><p>Feel free to test with the URL of the Matterport model you want to embed on your site in the example below:</p><!-- /wp:paragraph --><!-- wp:shortcode -->[embed]https://my.matterport.com/show/?m=xxxxxxxxxxx[/embed]<!-- /wp:shortcode -->')); ?>"
+        }
+    ]
 }
