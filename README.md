@@ -47,7 +47,7 @@ For more information about Matterport models and embedding options, visit the [o
 
 -   WordPress 2.9 or higher
 -   PHP 7.1 or higher
--   Tested up to WordPress 6.9
+-   Tested up to WordPress 7.0
 
 ## Frequently Asked Questions
 
@@ -73,49 +73,4 @@ If your page builder supports oEmbed, it should work because Matterport is added
 
 ## Changelog
 
-### 1.1.1
-
--   Fix missing built assets.
-
-### 1.1.0
-
--   Update Matterport logo.
--   Update tested up WordPress version to 6.9.
-
-### 1.0.2
-
--   Update minimum required version to 5.0. This plugin could work with WordPress 2.9+ but is built for the Block Editor. The plugin also requires at least WordPress 4.6 for modern localization support.
-
-### 1.0.1
-
--   Update FAQ and description in documentation.
--   Add missing text domain headers.
--   Add preview blueprint.
-
-### 1.0.0
-
--   Public release.
-
-### 0.3.0
-
--   Add GitHub workflows to deploy and release the plugin on WordPress.org SVN repository.
-
-### 0.2.2
-
--   Update `readme.txt` with "Screenshots" section.
--   Move all assets into `.wordpress-org` folder.
-
-### 0.2.1
-
--   Rename plugin name, slug and namespace.
--   Update plugin description.
--   Rename block variation title.
--   Add missing icon and screenshot.
-
-### 0.2.0
-
--   Rename plugin name, slug and namespace.
-
-### 0.1.0
-
--   Initial release.
+See [CHANGELOG.md](CHANGELOG.md) for release history.
