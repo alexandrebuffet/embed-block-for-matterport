@@ -47,7 +47,7 @@ For more information about Matterport models and embedding options, visit the [o
 
 -   WordPress 2.9 or higher
 -   PHP 7.1 or higher
--   Tested up to WordPress 7.0
+-   Tested up to WordPress 7.1
 
 ## Frequently Asked Questions
 
